@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class GitExercise {
 
-  int age;
   Scanner in = new Scanner(System.in);
 void go(){
   System.out.println("It works!");
@@ -17,12 +16,10 @@ void askAboutAge(){
   System.out.println("Din alder er "+ age);
 }
 
-
-
   void stupidMethod(){
     System.out.println("This is stupid");
     System.out.println("hej");
-  }
+}
 
   public static void main(String[] args) {
     GitExercise go = new GitExercise();
@@ -31,6 +28,5 @@ void askAboutAge(){
     askAboutAge.askAboutAge();
     GitExercise stupidMethod = new GitExercise();
     stupidMethod.stupidMethod();
-
   }
 }
